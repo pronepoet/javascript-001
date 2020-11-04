@@ -17,7 +17,7 @@ function checkDriverAge(){
     }
 }
 
-checkDriverAge();
+//checkDriverAge();
    
 //function expression
 var checkDriverAge2 = function(){
@@ -56,8 +56,26 @@ function checkDriverAge(age){
     }
     else
     {
-        alert('Please try again!')
+        alert('Please try again!');
     }
 }
 
-checkDriverAge();
+//checkDriverAge();
+
+
+
+//arrays
+var list = ["Mouse","Keyboard","Laptop","Couch"];
+console.log(list[0]);
+
+
+
+
+//objects
+var magician = {
+name:"Phillip",
+quirk:"Flames",
+epxperience:"Frontlines",
+
+}
+console.log(magician.name);
